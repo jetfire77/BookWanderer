@@ -5,7 +5,9 @@
   <p align="center">
   <img src="./Screenshot/Logo.png" alt="Logo">
    
-   <h1> BookWanderer </h2> <h3> Your digital sanctuary for the love of books. Let the adventure begin! </h3>
+  
+   <h1 class="display-4 text-center">Book  <span style="color: #F05941 ">Wanderer</span> </h1>
+   <h3> Your digital sanctuary for the love of books. Let the adventure begin! </h3>
     <br />
     <br />
     

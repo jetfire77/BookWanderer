@@ -23,7 +23,7 @@ This project is a Web App based on Asp.Net Core MVC architecture for online book
 
 Techstack: Asp.net Core MVC is used for architectural Design. Database is managed by Microsoft Sql Server. Entity Framework Core is used to interact with Database. Identity Core Framework is used to provide security.
 
-![GitHub language count](https://img.shields.io/github/languages/count/jetfire77/BookWanderer
+![GitHub language count](https://img.shields.io/github/languages/count/jetfire77/BookWanderer)
 
 ### Project Images
 

@@ -1,0 +1,70 @@
+﻿
+@*  // passing from controller -> view(Aboutus)-> view(_Layout)
+    @{
+    ViewData["Title"] = "About us";
+
+}
+
+*@
+
+<h1 class="display-4 text-center">Empowering   <span style="color: #F05941 "> Readers</span> </h1>
+
+
+
+<div class="  text-center">
+    <div class="note-img">
+        
+        <div>
+            <p class="px-2">
+                Welcome to BookWanderer, a digital haven for bibliophiles and book enthusiasts alike. At BookWanderer, we believe in the transformative power of literature and the joy that comes from exploring new worlds through the written word.
+
+                With user-friendly features, intuitive navigation, and a vast array of titles, our library app invites you to embark on a literary journey like never before. Immerse yourself in a world where stories come to life, knowledge becomes boundless, and the love for books is celebrated with every click.
+            </p>
+        </div>
+       
+    </div>
+</div>
+
+<hr />
+
+<div class="container mt-5 ">
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2 class="mb-3" style=" fontWeight: Bold; ">Our Mission: <span style="color: #F05941 ">Explore</span> </h2>
+            <p>
+                
+                Our mission is to create a seamless and immersive online reading experience that transcends traditional boundaries. We aim to foster a global community of readers, providing a platform where literary exploration knows no limits.
+            </p>
+            <div class="d-flex justify-content-center mt-2">
+                  
+                    <a class="btn btn-dark" asp-controller="Book" asp-action="GetAllBooks" asp-route-returnUrl="@Context.Request.Path">Explore Books</a>
+                   
+                
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="img-fluid awesome" src="~/images/book/AboutUs.jpg" alt="about-awesome" />
+           
+        </div>
+    </div>
+
+    <div class="row login mt-5 mb-5 p-5">
+        <div class="col-md-6">
+            <img class="img-fluid awesome" src="~/images/book/AddBook.jpg" alt="about-awesome" />
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h2 class="mb-3" style={{ fontWeight: "Bold" }}>Contribution <span style="color: #F05941 "> and Community</span> </h2>
+            <p>
+                BookWanderer isn't just about reading; it's about sharing your discoveries with the world. Contribute to our ever-expanding library by adding books, writing reviews, and connecting with fellow readers.
+            </p>
+            <div class="d-flex justify-content-center mt-3">
+              
+                <a class="btn btn-primary" asp-controller="Book" asp-action="AddNewBook">Add a Book</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </div>

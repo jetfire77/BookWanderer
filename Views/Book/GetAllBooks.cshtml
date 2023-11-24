@@ -1,0 +1,68 @@
+﻿ 
+@*  
+
+@model IEnumerable<BookModel>   // to use the BookModel IEnumerable because we want list
+
+ *@
+
+@{
+    ViewData["Title"] = "All Books";
+
+}
+
+
+<h1 class="display-4 text-center pb-4">All   <span style="color: #F05941 "> books</span> </h1>
+
+<hr />
+
+<div class="container">
+   
+    
+
+    <div class="row"> 
+
+        @foreach(var book in Model)
+        {  
+            <div class="col-md-4">
+                <partial name="_bookThumbnail"  model="@book" />      @*// passing and setting data dynamically to this partial view partial tag helper *@
+
+               @* <div class="card mb-4 shadow-sm">
+                    <img src="@book.CoverImageUrl"  class="img-thumbnail" />
+                     <div class="card-body">
+                        <h3 class="card-title">@book.Title </h3>
+                        @{
+                            static string TruncateDescription(string description, int maxLength)
+                            {
+                                if (string.IsNullOrEmpty(description) || description.Length <= maxLength)
+                                {
+                                    return description;
+                                }
+                                else
+                                {
+                                    return description.Substring(0, maxLength) + " ..."; // You can change "..." to any other indicator.
+                                }
+                            }
+                            
+                            int maxDescriptionLength = 300;
+                            string truncatedBook1Description = TruncateDescription(@book.Description, maxDescriptionLength);
+                          }
+                        <p class="card-text">@truncatedBook1Description</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                                <!--accessing particular book form get all books page-->
+                                <!--   <a  href="/book/getbook/book.Id" class="btn btn-sm btn-outline-secondary">View details</a> -->
+                                <a asp-route="bookDetailsRoute" asp-route-id="@book.Id"
+                                 
+                                    class="btn btn-sm btn-outline-secondary">View details</a> <!--using anchor tag helper-->
+                            </div>
+                            <small class="text-muted">@book.Author</small>
+                        </div>
+                    </div>
+                </div>*@
+            </div>
+            
+        }
+        
+    </div>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tanuj.BookWanderer.props" />
+</Project>

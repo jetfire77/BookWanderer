@@ -1,0 +1,38 @@
+﻿@model BookModel    
+@*  model BookModel   only for dynamic partial view to pass data*@
+
+
+<div class="card mb-4 shadow-sm" >
+    <img src="@(string.IsNullOrEmpty(Model.CoverImageUrl) ? "/images/book/NoImage.png" : Model.CoverImageUrl) " class="img-thumbnail" style="height: 350px;" />
+                     <div class="card-body ">
+        <h3 class="card-title">@(string.IsNullOrEmpty(Model.Title) ? "Name is not available" :Model.Title) </h3>
+                        @{
+                            static string TruncateDescription(string description, int maxLength)
+                            {
+                                if (string.IsNullOrEmpty(description) || description.Length <= maxLength)
+                                {
+                                    return description;
+                                }
+                                else
+                                {
+                                    return description.Substring(0, maxLength) + " ..."; // You can change "..." to any other indicator.
+                                }
+                            }
+
+                            int maxDescriptionLength = 200;
+            string truncatedBook1Description = TruncateDescription(@Model.Description, maxDescriptionLength);
+                          }
+                        <p class="card-text">@truncatedBook1Description</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                                <!--accessing particular book form get all books page-->
+                                <!--   <a  href="/book/getbook/book.Id" class="btn btn-sm btn-outline-secondary">View details</a> -->
+                <a asp-route="bookDetailsRoute" asp-route-id="@Model.Id"
+
+                                    class="btn btn-sm btn-outline-secondary">View details</a> <!--using anchor tag helper-->
+                            </div>
+            <small class="text-muted">@(string.IsNullOrEmpty(Model.Author) ? "Name is not available" : Model.Author) </small>
+                        </div>
+                    </div>
+                </div>

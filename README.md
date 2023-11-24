@@ -4,7 +4,8 @@
 <div align="center">
   <p align="center">
   <img src="./Screenshot/Logo.png" alt="Logo">
-    BookWanderer: Your digital sanctuary for the love of books. Let the adventure begin!
+   
+   <h1> BookWanderer: </h2> <h3> Your digital sanctuary for the love of books. Let the adventure begin! </h3>
     <br />
     <br />
     
@@ -24,93 +25,65 @@ Techstack: Asp.net Core MVC is used for architectural Design. Database is manage
 
 Home Page
 
-***
-
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/Home.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 About Us page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/About1.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/About2.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 All Books page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/AllBooks.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 Book Detail page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/Book.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 Book Reading Page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/Book2.png" alt="Logo">
 
-<pre>
-</pre>
-
-Book Reading Page
-
-<pre>
-</pre>
-
-<img src="./Screenshot/Book2.png" alt="Logo">
-
-<pre>
-</pre>
+---
 
 Add Book Page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/AddBook.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 Sign Up Page
 
-<pre>
-</pre>
+---
 
 <img src="./Screenshot/SignUp.png" alt="Logo">
 
-<pre>
-</pre>
+---
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

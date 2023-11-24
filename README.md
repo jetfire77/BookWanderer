@@ -5,7 +5,7 @@
   <p align="center">
   <img src="./Screenshot/Logo.png" alt="Logo">
    
-   <h1> BookWanderer: </h2> <h3> Your digital sanctuary for the love of books. Let the adventure begin! </h3>
+   <h1> BookWanderer </h2> <h3> Your digital sanctuary for the love of books. Let the adventure begin! </h3>
     <br />
     <br />
     
@@ -29,7 +29,7 @@ Home Page
 
 <img src="./Screenshot/Home.png" alt="Logo">
 
----
+
 
 About Us page
 
@@ -37,13 +37,12 @@ About Us page
 
 <img src="./Screenshot/About1.png" alt="Logo">
 
----
 
----
+
 
 <img src="./Screenshot/About2.png" alt="Logo">
 
----
+
 
 All Books page
 
@@ -51,7 +50,7 @@ All Books page
 
 <img src="./Screenshot/AllBooks.png" alt="Logo">
 
----
+
 
 Book Detail page
 
@@ -59,7 +58,7 @@ Book Detail page
 
 <img src="./Screenshot/Book.png" alt="Logo">
 
----
+
 
 Book Reading Page
 
@@ -67,7 +66,7 @@ Book Reading Page
 
 <img src="./Screenshot/Book2.png" alt="Logo">
 
----
+
 
 Add Book Page
 
@@ -75,7 +74,7 @@ Add Book Page
 
 <img src="./Screenshot/AddBook.png" alt="Logo">
 
----
+
 
 Sign Up Page
 
@@ -83,7 +82,7 @@ Sign Up Page
 
 <img src="./Screenshot/SignUp.png" alt="Logo">
 
----
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
